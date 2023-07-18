@@ -12,7 +12,7 @@
 MODULE_SOURCE="source /u/local/Modules/default/init/bash" 	#if none, leave empty <- for HPC
 
 #load cutadapt
-CUTADAPT="/u/local/apps/python/2.7.13/bin/cutadapt" 		#path to cutadapt binary. see documentation for how to obtain this script
+CUTADAPT="/Users/joannaelmore/opt/miniconda3/pkgs/cutadapt-4.0-py38h431a6f7_0/bin/cutadapt"   		#path to cutadapt binary. see documentation for how to obtain this script
 
 #entrez-qiime
 ENTREZ_QIIME="${DB}/scripts/entrez_qiime.py" 						#path to python script. see documentation for how to obtain this script
@@ -22,14 +22,14 @@ ecoPCR="${DB}/ecoPCR/src/ecoPCR"							#path to executable. see documentation fo
 
 #Load / run BLASTn
 LOAD_BLAST="" 												#if none, leave empty <- for HPC
-BLASTn_CMD="${DB}/ncbi-blast-2.6.0+/bin/blastn" 			#either the path to the blastn executable or just blastn if it is loaded or already in your path
+BLASTn_CMD="$/Users/joannaelmore/opt/miniconda3/pkgs/blast-2.6.0-boost1.64_2/bin/blastn" 			#either the path to the blastn executable or just blastn if it is loaded or already in your path
 
 
 #Load / run Qiime
-QIIME="module load qiime" 								#or what ever code is used to load qiime in a bash shell (e.g. on a mac it might be "macqiime")
+QIIME="conda activate qiime2-2022.2" 								#or what ever code is used to load qiime in a bash shell (e.g. on a mac it might be "macqiime")
 
 #load bowtie2
-BOWTIE2="module load bowtie2"							#or what ever code is used to load bowtie2 in a bash shell, or path to bowtie2
+BOWTIE2="/Users/joannaelmore/opt/miniconda3/envs/qiime2-2022.2/bin/bowtie2"							#or what ever code is used to load bowtie2 in a bash shell, or path to bowtie2
 
 #load ATS
 ATS="module load ATS"									#or what ever code is used to load ATS in a bash shell, or path to ATS.  ATS is a Hoffman2 module that allows the user to submit a job on the HPC from within a shell script
