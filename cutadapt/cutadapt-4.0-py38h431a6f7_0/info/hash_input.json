@@ -1,0 +1,8 @@
+{
+  "c_compiler_version": "12",
+  "python": "3.8.*  *_cpython",
+  "channel_targets": "bioconda main",
+  "c_compiler": "clang",
+  "CONDA_BUILD_SYSROOT": "",
+  "target_platform": "osx-64"
+}

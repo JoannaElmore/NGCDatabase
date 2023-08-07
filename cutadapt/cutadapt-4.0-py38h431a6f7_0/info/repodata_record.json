@@ -1,0 +1,26 @@
+{
+  "arch": "x86_64",
+  "build": "py38h431a6f7_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/osx-64",
+  "constrains": [],
+  "depends": [
+    "dnaio >=0.7.0",
+    "python >=3.8,<3.9.0a0",
+    "python_abi 3.8.* *_cp38",
+    "xopen >=1.2.0"
+  ],
+  "features": "",
+  "fn": "cutadapt-4.0-py38h431a6f7_0.tar.bz2",
+  "license": "MIT",
+  "md5": "d22be1f68fe81fa5cdf274027ee5dfde",
+  "name": "cutadapt",
+  "platform": "darwin",
+  "sha256": "4b95d3435f0bea90b80e131b030a6ce7c7696f610cd16deddf06cf46368008f1",
+  "size": 198614,
+  "subdir": "osx-64",
+  "timestamp": 1649890716160,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/osx-64/cutadapt-4.0-py38h431a6f7_0.tar.bz2",
+  "version": "4.0"
+}

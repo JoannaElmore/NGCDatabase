@@ -1,0 +1,17 @@
+{
+  "arch": "x86_64",
+  "build": "py38h431a6f7_0",
+  "build_number": 0,
+  "depends": [
+    "dnaio >=0.7.0",
+    "python >=3.8,<3.9.0a0",
+    "python_abi 3.8.* *_cp38",
+    "xopen >=1.2.0"
+  ],
+  "license": "MIT",
+  "name": "cutadapt",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1649890716160,
+  "version": "4.0"
+}
